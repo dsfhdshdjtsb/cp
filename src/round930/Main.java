@@ -30,23 +30,23 @@ public class Main {
             String top = scanner.next();
             String bot = scanner.next();
             int count = 1;
-            String result = "" + top.charAt(0);
+            StringBuilder result = new StringBuilder("" + top.charAt(0));
             for(int j = 0; j < size; j++) {
                 char cur = top.charAt(j);
                 if(j == size - 1) {
-                    result += bot.charAt(j);
+                    result.append(bot.charAt(j));
                     break;
                 }
                 char next = top.charAt(j + 1);
                 char bnext = bot.charAt(j);
                 if(next == bnext) {
                     count++;
-                    result += next;
+                    result.append(next);
                 } else if (next == '0') {
                     count = 1;
-                    result += next;
+                    result.append(next);
                 } else if (bnext == '0') {
-                    result += bot.substring(j);
+                    result.append(bot.substring(j));
                     break;
                 } else {
                     System.out.println("CHECK");
