@@ -9,7 +9,7 @@ public class Template {
         Scanner scanner = new Scanner(System.in);
         int numberOfTestCases = scanner.nextInt();
 
-        for (int i = 0; i < numberOfTestCases; i++) {
+        for (int testcase = 0; testcase< numberOfTestCases; testcase++) {
 
         }
     }
@@ -18,7 +18,7 @@ public class Template {
         Scanner scanner = new Scanner(System.in);
         int numberOfTestCases = scanner.nextInt();
 
-        for (int i = 0; i < numberOfTestCases; i++) {
+        for (int testcase = 0; testcase< numberOfTestCases; testcase++) {
 
         }
     }
@@ -27,7 +27,7 @@ public class Template {
         Scanner scanner = new Scanner(System.in);
         int numberOfTestCases = scanner.nextInt();
 
-        for (int i = 0; i < numberOfTestCases; i++) {
+        for (int testcase = 0; testcase< numberOfTestCases; testcase++) {
 
         }
     }
